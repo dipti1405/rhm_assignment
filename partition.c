@@ -42,7 +42,7 @@ bool partiion(int a[], int n)
   
 int main() 
 {
-	int a[] = {3, 1, 1, 2, 2, 1};
+	int a[] = {1, 4, 7, 2, 2};
 	int n = sizeof(a)/sizeof(a[0]);
 	if (partiion(a, n) == true)
 		printf("Can be subdivided into equal sum");
